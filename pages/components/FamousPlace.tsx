@@ -1,31 +1,31 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import LondonImage from "../../public/images/london.jpg";
-import NewYorkImage from "../../public/images/new-york.jpg";
+import HKImage from "../../public/images/hongkong.png";
+import LausanneImage from "../../public/images/lausanne.jpeg";
 import ParisImage from "../../public/images/paris.jpg";
-import TokyoImage from "../../public/images/tokyo.jpg";
+import ZZImage from "../../public/images/zhengzhou.jpeg";
 
 const places = [
-  {
-    name: "London",
-    image: LondonImage,
-    url: "/location/london-2643743",
-  },
   {
     name: "Paris",
     image: ParisImage,
     url: "/location/paris-2968815",
   },
   {
-    name: "New York",
-    image: NewYorkImage,
-    url: "/location/new-york-city-5128581",
+    name: "Hong Kong SAR",
+    image: HKImage,
+    url: "/location/hong-kong-1819729",
   },
   {
-    name: "Tokyo",
-    image: TokyoImage,
-    url: "/location/tokyo-1850147",
+    name: "Zheng Zhou",
+    image: ZZImage,
+    url: "/location/zhengzhou-1784658",
+  },
+  {
+    name: "Lausanne",
+    image: LausanneImage,
+    url: "/location/lausanne-2659994",
   },
 ];
 
