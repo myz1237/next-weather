@@ -5,7 +5,7 @@ import React from "react";
 import { HourlyWeatherData } from "../../utils/types";
 
 const HourlyWeather = ({
-  hourlyWeather,
+  hourlyWeather = [],
   timezone,
 }: {
   hourlyWeather: Array<HourlyWeatherData>;

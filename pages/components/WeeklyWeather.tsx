@@ -17,7 +17,7 @@ const WeeklyWeather = ({
         Weekly <span>Weather</span>
       </h3>
 
-      {weeklyWeather.length > 0 &&
+      {weeklyWeather?.length > 0 &&
         weeklyWeather.map((weather, index) => {
           {
             /*Our page has shown today's weather, ignore this one*/
